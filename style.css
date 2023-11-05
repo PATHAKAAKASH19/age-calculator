@@ -1,0 +1,95 @@
+
+*, *::after, *::before {
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+   background-color:  hsl(0, 0%, 94%);
+}
+
+
+#day, #month, #year {
+    border : 2px solid ;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px ;
+    height: 2em;
+    width: 80%;
+    font-size: 32px;
+    padding: 0px 15px 0px 15px;
+    
+    
+}
+
+
+.container {
+    display: flex;
+}
+
+.c1, .c2, .c3 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+img {
+   border-radius: 50%;
+    padding: 2%;
+    background-color: hsl(259, 100%, 65%) ;
+    cursor: pointer;
+    position : absolute;
+    right: 15%;
+    top: 33%;
+
+}
+
+
+hr {
+    position: relative;
+    margin:10% -10% 2% 0%;
+}
+
+
+.content {
+    border-radius: 1.2em 1.2em 30% 1.2em;
+    padding: 5% 15% 5% 5%;
+    position: absolute;
+    top: 15%;
+    right: 30%;
+    left: 20%;
+}
+
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 400%;
+    line-height: 0.5;
+}
+
+span {
+    color: hsl(259, 100%, 65%);
+}
+
+
+.content , .container, h1 , span , input , .c2,.c1,.c3,label {
+     background-color:   hsl(0, 0%, 100%);;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
